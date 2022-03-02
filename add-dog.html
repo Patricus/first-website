@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>The Dog Site</title>
+    <link rel="stylesheet" href="dog-style.css" />
+  </head>
+  <body>
+    <nav>
+      <span><a href="index.html">Home</a></span>
+      <span><a href="">Add Dog</a></span>
+      <span><a href="dog-sites.html">Dog Sites</a></span>
+      <span><a href="pictures.html">Pictures</a></span>
+    </nav>
+    <fieldset>
+      <legend>Add Dog</legend>
+      <form action="add-dog.html" method="post">
+        <div>
+          <label for="name">Name:</label>
+          <input id="name" type="text" />
+        </div>
+        <div>
+          <label for="breed">Breed:</label>
+          <input id="breed" type="text" />
+        </div>
+        <div>
+          <input type="checkbox" id="cute" />
+          <label for="cute">Is cute?</label>
+        </div>
+        <div>
+          <div>
+            <label for="description">Description:</label>
+          </div>
+
+          <textarea id="description" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+          <button id="add-dog" type="submit">Add Dog</button>
+        </div>
+      </form>
+    </fieldset>
+  </body>
+</html>
